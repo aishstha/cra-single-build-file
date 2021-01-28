@@ -73,7 +73,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "prod": "PORT=8080 HOST=http://localhost: node ./server.js",
-    "analyze": "analyzeChunks=true node scripts/build.js"
+    "analyze": "analyzeChunks=true node scripts/build.js",
+     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
